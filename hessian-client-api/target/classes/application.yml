@@ -1,5 +1,0 @@
-server:
-  port: 8190
-
-remote-service:
-  url: http://localhost:8090/userInfo
