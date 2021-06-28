@@ -1,4 +1,4 @@
-package com.machale.hs.model;
+package com.machale.client.hs.model;
 
 import java.io.Serializable;
 

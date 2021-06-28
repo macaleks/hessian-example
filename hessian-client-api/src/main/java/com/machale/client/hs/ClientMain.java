@@ -1,6 +1,6 @@
-package com.machale.hs;
+package com.machale.client.hs;
 
-import com.machale.hs.client.UserInfoClient;
+import com.machale.client.hs.client.UserInfoClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

@@ -1,7 +1,7 @@
-package com.machale.hs.client;
+package com.machale.client.hs.client;
 
-import com.machale.hs.model.UserInfo;
-import com.machale.hs.service.HsService;
+import com.machale.client.hs.model.UserInfo;
+import com.machale.client.hs.service.HsService;
 import org.springframework.remoting.RemoteAccessException;
 import org.springframework.remoting.caucho.HessianProxyFactoryBean;
 

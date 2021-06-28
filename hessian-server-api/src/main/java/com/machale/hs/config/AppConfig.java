@@ -1,7 +1,7 @@
 package com.machale.hs.config;
 
 
-import com.machale.hs.service.HsService;
+import com.machale.client.hs.service.HsService;
 import com.machale.hs.service.HsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
