@@ -5,6 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication
 public class ClientMain {
 
@@ -12,5 +15,11 @@ public class ClientMain {
         ConfigurableApplicationContext context = SpringApplication.run(ClientMain.class, args);
         UserInfoClient userInfoClient = (UserInfoClient) context.getBean("userInfoClient", UserInfoClient.class);
         userInfoClient.provideUserInfo("232", "name333");
+
+        List<String> names = new ArrayList<>();
+        names.add("Freitash");
+        names.add("Boll");
+        names.add("Xin");
+        userInfoClient.provideUserInfo2(names);
     }
 }
